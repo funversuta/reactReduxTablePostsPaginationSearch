@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactReduxTablePostsPaginationSearch/static/css/main.2bb288f3.css",
+    "main.js": "/reactReduxTablePostsPaginationSearch/static/js/main.fc3c165e.js",
+    "static/media/search.svg": "/reactReduxTablePostsPaginationSearch/static/media/search.534d1a839c2cd926be2654c834c04764.svg",
+    "index.html": "/reactReduxTablePostsPaginationSearch/index.html",
+    "static/media/arrow.svg": "/reactReduxTablePostsPaginationSearch/static/media/arrow.4320ae5d44313dde36c3d34278b180ec.svg",
+    "main.2bb288f3.css.map": "/reactReduxTablePostsPaginationSearch/static/css/main.2bb288f3.css.map",
+    "main.fc3c165e.js.map": "/reactReduxTablePostsPaginationSearch/static/js/main.fc3c165e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bb288f3.css",
+    "static/js/main.fc3c165e.js"
+  ]
+}
