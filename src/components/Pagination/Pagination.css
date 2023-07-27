@@ -1,0 +1,47 @@
+.buttons,
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0;
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #474955;
+}
+
+.pages {
+  justify-content: space-around;
+  font-style: italic;
+}
+
+.page {
+  padding: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button {
+  border: 0;
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #474955;
+  line-height: 137.687%;
+
+  &:disabled {
+    color: #666666;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    cursor: pointer;
+    &:disabled {
+      cursor: no-drop;
+    }
+  }
+}

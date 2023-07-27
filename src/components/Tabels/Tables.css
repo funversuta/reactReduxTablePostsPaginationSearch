@@ -1,0 +1,148 @@
+.Line {
+  border: 1px solid #e3e6ec;
+
+  &:not(:first-child) {
+    border-top: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+
+  @media only screen and (min-width: 1280px) {
+    table-layout: auto;
+  }
+}
+
+td {
+  vertical-align: middle;
+  border-right: 1px solid #e3e6ec;
+  padding: 0.5rem;
+
+  @media only screen and (min-width: 1280px) {
+    padding: 0rem;
+  }
+}
+
+.Main {
+  height: 100vh;
+  margin: 5px;
+  @media only screen and (min-width: 768px) {
+    margin: 50px;
+  }
+}
+.Header {
+  border: 1px solid #e3e6ec;
+  background-color: #474955;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 137.687%;
+
+  &:not(:first-child) {
+    border-top: none;
+  }
+
+  .Header_id {
+    display: flex;
+    padding: 3rem;
+
+    .arrow {
+      display: none;
+    }
+
+    .arrow.active {
+      transform: rotate(180deg);
+    }
+
+    @media only screen and (min-width: 1280px) {
+      .arrow {
+        display: block;
+        margin-left: 0.5rem;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .Header_title {
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+
+    .arrow2 {
+      display: none;
+    }
+
+    @media only screen and (min-width: 1280px) {
+      .arrow2 {
+        display: block;
+        margin-left: 2.5rem;
+
+        &.active {
+          transform: rotate(180deg);
+        }
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.Header_body {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+
+  .arrow3 {
+    display: none;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .arrow3 {
+      margin-left: 2rem;
+      display: block;
+
+      &.active {
+        transform: rotate(180deg);
+      }
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.id {
+  border-right: 1px solid #e3e6ec;
+  text-align: center;
+
+  @media only screen and (min-width: 1280px) {
+    padding: 3rem;
+    width: 3rem;
+  }
+}
+
+.title {
+  border-right: 1px solid #e3e6ec;
+
+  @media only screen and (min-width: 768px) {
+    padding: 3rem;
+    width: 60%;
+  }
+}
+
+.body {
+  padding: 0.5rem;
+  width: 30%;
+
+  @media only screen and (min-width: 1280px) {
+    padding: 0.5rem;
+    width: 40%;
+  }
+}
